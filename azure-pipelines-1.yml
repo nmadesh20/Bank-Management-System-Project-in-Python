@@ -40,6 +40,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'DockerHubConnection'
-    repository: 'python app'
+    repository: 'nmadesh20/python app'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'

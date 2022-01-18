@@ -32,3 +32,7 @@ steps:
 - script: |
   displayName: Running the application
     python main.py
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: '$(Staging.DefaultWorkingDirectory/**/main.py'

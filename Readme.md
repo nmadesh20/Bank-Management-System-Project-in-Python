@@ -1,17 +1,4 @@
 #Bank Management System Project in Python
 
 
-###video Demo - https://youtu.be/H2vVmtt2K6U
-
-***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
-
-
-***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
-
-
-***** FOR MORE PROJECTS :- https://projectworlds.in/ *****
-
-
-
-
-THANK YOU FOR DOWNLOADING :) 
+[![Build Status](https://dev.azure.com/nmadesh20/python-application/_apis/build/status/nmadesh20.Bank-Management-System-Project-in-Python%20(1)?branchName=master)](https://dev.azure.com/nmadesh20/python-application/_build/latest?definitionId=75&branchName=master)

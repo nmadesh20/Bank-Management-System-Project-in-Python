@@ -37,7 +37,9 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-- task: Bash@3
+- task: Docker@2
   inputs:
-    targetType: 'inline'
-    script: 'python main.py'
+    containerRegistry: 'DockerHubConnection'
+    repository: 'python app'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'

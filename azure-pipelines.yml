@@ -24,7 +24,7 @@ steps:
   #displayName: 'pytest'
 
 - script: |
-    python setup.py sdist
+    python main.py sdist
   displayName: 'Artifact creation'
 
 - task: CopyFiles@2
